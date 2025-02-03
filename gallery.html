@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		 <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Jack Wilderman | Wildlife Photography</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="https://kit.fontawesome.com/fcf4b58506.js" crossorigin="anonymous"></script>
+			<link rel="preconnect" href="https://fonts.googleapis.com">
+			<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+			<link href="https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+			<link rel="stylesheet" href="styles/style.css"> 
+			<link rel="stylesheet" type="text/css" href="slick/slick.css">
+			<link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
+					<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+	<body>
+<!-- HEADER-->
+
+	<div class="container">
+		
+<!-- LOGO-->
+	
+	<div id="logo-1">
+		<img src="Images/jack-wilderman-white.svg" alt="Jack Wilderman Logo">
+		</div>
+		<header class="siteheader">
+<!-- NAVIGATION BAR-->
+				<nav class="navbar">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li class="current"><a href="gallery.html">Gallery</a></li>
+				<li><a href="prints.html">Prints</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+		
+		 <!-- Responsive Mobile Navigation -->
+<!-- Responsive Mobile Navigation -->
+<div class="topnav" id="myTopnav">
+  <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
+    <i class="fa fa-bars"></i>
+  </a>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="gallery.html" class="current">Gallery</a>
+  <a href="prints.html">Prints</a>
+  <a href="contact.html">Contact</a>
+</div>
+
+
+		</header>
+		</div>
+<!-- HEADER END-->
+		<main>
+		 <br>
+		 <br>
+			<h1>Gallery </h1>
+		<br>
+			
+	<div class="row row-stripe">
+		<div class="img-columns">
+		<img class="reindeer-img" src="images/reindeer-again.png" alt="reindeer on mountain">
+			<div class="reindeer-text text">
+		<p>Jack's photography is more than just an artistic expression-it's a call to action. Jack believes that by bringing people closer to nature through his images, he can inspire a sense of wonder and urgency to protect the planet's fragile ecosystems.
+		</p>
+			</div>
+		</div> 
+		</div>
+		
+		
+		<div class="row row-stripe">
+		<div class="img-columns-reverse">
+		
+		<img class="wildcat-image" src="images/wildcat.png" alt="scottish wildcat in snow">
+		<div class="wildcat-text text">
+		<p>His work has been featured in numerous publications, galleries, and conservation campaigns, bringing the wild into the hearts and homes of people everywhere.</p>
+		</div> 
+		</div>
+		</div>
+		
+		<div class="row">
+		<div class="reindeer-hill image">
+		<img src="images/reindeer-hill.png" alt="reindeer scottish wilderness" class="two">
+		</div>
+		</div>
+		
+		<div class="row row-stripe">
+  <img src="images/squirrel.png" alt="red squirrel on tree" class="one">
+  <img src="images/highland-cow.png" alt="scottish higland cows" class="two">
+</div>
+<div class="row">
+  <img src="images/ram.png" alt="ram on top of hill" class="three">
+</div>
+<div class="row row-stripe">
+  <img src="images/two-puffins.png" alt="two puffins on cliff" class="four">
+  <img src="images/wolves.png" alt="wolves" class="five">
+</div>
+<div class="row">
+  <img src="images/seal.png" alt="seal on rocks" class="six">
+</div>
+
+		
+		
+		</main>
+		
+<!--FOOTER-->
+		<footer>
+		<div class="container-2">
+			<div id="logo-2">
+				<img src="Images/jw.svg" alt="JW logo">
+			</div>
+				<ul class="social-links">
+					<li><a href="https://facebook.com/jackwilderman"><i class="fa fa-facebook"></i></a></li>
+					<li><a href="https://instagram.com/jackwilderman"><i class="fa fa-instagram"></i></a></li>
+					<li><a href="https://twitter.com/jackwilderman"><i class="fa-brands fa-x-twitter"></i></a></li>
+				</ul>
+			</div>
+		</footer>
+<!--FOOTER END -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script type="text/javascript" src="slick/slick.min.js"></script>
+	
+	  <script type="text/javascript">
+	$(document).ready(function(){
+  $(".scroll-wheel").slick({
+    dots: true,
+  infinite: true,
+  speed: 300,
+  slidesToShow: 1,
+  centerMode: true,
+  variableWidth: true
+  });
+});
+	</script>
+<script>
+  function toggleMenu() {
+    const topnav = document.getElementById("myTopnav");
+    if (topnav.className === "topnav") {
+      topnav.className += " responsive";
+    } else {
+      topnav.className = "topnav";
+    }
+  }
+  </script>
+	</body>
+</html>

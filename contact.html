@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		 <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Jack Wilderman | Wildlife Photography</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="https://kit.fontawesome.com/fcf4b58506.js" crossorigin="anonymous"></script>
+			<link rel="preconnect" href="https://fonts.googleapis.com">
+			<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+			<link href="https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+			<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+			<link rel="stylesheet" href="styles/style.css">
+</head>
+	<body>
+	<div class="page-container">
+<!-- HEADER-->
+		<div class="container">
+		
+<!-- LOGO-->
+	
+	<div id="logo-1">
+		<img src="Images/jack-wilderman-white.svg" alt="Jack Wilderman Logo">
+		</div>
+		<header class="siteheader">
+<!-- NAVIGATION BAR-->
+		<nav class="navbar">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="gallery.html">Gallery</a></li>
+				<li><a href="prints.html">Prints</a></li>
+				<li class="current"><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+		
+		<!-- Responsive Mobile Navigation -->
+<div class="topnav" id="myTopnav">
+  <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
+    <i class="fa fa-bars"></i>
+  </a>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="gallery.html" class="current">Gallery</a>
+  <a href="prints.html">Prints</a>
+  <a href="contact.html">Contact</a>
+</div>
+
+		</header>
+		</div>
+<!-- HEADER END-->
+	<main>
+		
+	
+	<!--FORM-->
+	
+	<div class="form-container">
+	
+	<div class="left-content">
+	<div class="text-content">
+	<h1>Get in <br> Touch </h1>
+		<p class="bold-text">In addition to selling prints Jack Wilderman is also available for photography lessons and exhibitions.</p>
+		</div>
+		<img src="images/photographer.jpg" alt="jack wilderman photographer" class="form-image">
+		</div>
+	
+
+
+<form action="/action_page.php" class="styled-form">
+  <div class="name-container">
+    <div class="form-group">
+      <label for="first-name">First Name</label>
+      <input type="text" id="first-name" name="first_name" placeholder="First Name" class="input" required>
+    </div>
+    <div class="form-group">
+      <label for="last-name">Last Name</label>
+      <input type="text" id="last-name" name="last_name" placeholder="Last Name" class="input" required>
+    </div>
+  </div>
+  
+  <div class="form-group">
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Your Email" class="input" required>
+  </div>
+  
+  <div class="form-group">
+	<label for="subject">Subject:</label>
+	<select id="subject" name="subject" class="subject-button">
+	<option value="select" class="subject-button">Select</option>
+	<option value="print" class="subject-button">Prints</option>
+	<option value="lessons" class="subject-button">Lessons</option>
+	<option value="other" class="subject-button">Other</option>
+  </select>
+  </div>
+  
+  <div class="form-group">
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="4" placeholder="Ask me about anything!" class="input" required></textarea>
+  </div>
+  
+  <input type="submit" value="Send" class="submit-button">
+</form>
+
+
+	</div>
+<!-- Sign-up Bar -->
+<div class="signup-bar">
+    <h3 class="signup-text">Sign up for my Monthly updates</h3>
+    <form class="signup-form">
+        <input type="email" placeholder="Enter your email" class="signup-input" required>
+        <button type="submit" class="signup-button">Sign Up</button>
+    </form>
+</div>
+</main>
+	</div>
+	
+	
+<!--FOOTER-->
+<footer>
+		<div class="container-2">
+			<div id="logo-2">
+				<img src="Images/jw.svg" alt="JW logo">
+			</div>
+		<ul class="social-links">
+				<li><a href="https://facebook.com/jackwilderman"><i class="fa fa-facebook"></i></a></li>
+				<li><a href="https://instagram.com/jackwilderman"><i class="fa fa-instagram"></i></a></li>
+				<li><a href="https://twitter.com/jackwilderman"><i class="fa-brands fa-x-twitter"></i></a></li>
+		</ul>
+</div>
+		</footer>
+<script>
+  function toggleMenu() {
+    const topnav = document.getElementById("myTopnav");
+    if (topnav.className === "topnav") {
+      topnav.className += " responsive";
+    } else {
+      topnav.className = "topnav";
+    }
+  }
+</script>
+<!--FOOTER END-->
+	</body>
+	</html>

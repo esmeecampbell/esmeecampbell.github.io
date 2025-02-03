@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		 <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Jack Wilderman | Wildlife Photography</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="https://kit.fontawesome.com/fcf4b58506.js" crossorigin="anonymous"></script>
+			<link rel="preconnect" href="https://fonts.googleapis.com">
+			<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+			<link href="https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+			<link rel="stylesheet" href="styles/style.css"> 
+			<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+			<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+					<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+	<body>
+<!-- HEADER-->
+
+	<div class="container">
+		
+<!-- LOGO-->
+	
+	<div id="logo-1">
+		<img src="Images/jack-wilderman-white.svg" alt="Jack Wilderman Logo">
+		</div>
+		<header class="siteheader">
+<!-- NAVIGATION BAR-->
+				<nav class="navbar">
+			<ul>
+				<li class="current"><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="gallery.html">Gallery</a></li>
+				<li><a href="prints.html">Prints</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+		
+<!-- Responsive Mobile Navigation -->
+<div class="topnav" id="myTopnav">
+  <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
+    <i class="fa fa-bars"></i>
+  </a>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="gallery.html" class="current">Gallery</a>
+  <a href="prints.html">Prints</a>
+  <a href="contact.html">Contact</a>
+</div>
+
+		</header>
+		</div>
+<!-- HEADER END-->
+		<main>
+		<div class="image-overlay">
+    <img src="Images/two-sheep.png" alt="Two sheep with colourful markings on hillside" class="background-image">
+    <img src="images/jack-wilderman-green.svg" alt="Jack Wilderman logo green" class="overlay-logo">
+</div>
+
+				<div class="intro-text">
+					<p class="bold-text"> UK-based wildlife photographer with a passion for capturing the untamed beauty of Scottish wildlife. </p>
+				</div>
+<!--QUOTE-->
+
+			<div class= "pony-quote">
+			
+						<img class="pony" src="images/shetland-pony.png" alt="shetland ponies on mountain">
+						
+						<blockquote class="quote">"In the quiet of nature, there’s a world waiting to be seen—my camera is just the doorway to its wonders."
+					
+						<cite class="quote-attribution"> – Jack Wilderman</cite>
+						</blockquote>
+				</div>	
+			
+<!--ALIGN IMAGE TO RIGHT, TEXT TO LEFT-->
+
+
+			<h2> About Me </h2>
+					<div class="about-me">
+					<div class="about-me-img">
+					
+					<img class="jack-wilderman-1" src="images/jack-wilderman.png" alt="jack wilderman by green tent overlooking hilly landscape.">
+					</div>
+							
+							<p class="about-para"> Jack Wilderman is a UK-based wildlife photographer with a passion for capturing the raw and unfiltered beauty of the natural world. For over a decade, Jack has ventured into some of the most remote and untamed corners of the planet, documenting the wildlife that inhabits these extraordinary landscapes. Working predominantly within the Scottish wilderness his work tells the stories of creatures both great and small, capturing the fleeting moments that reveal their power, grace, and vulnerability.
+							<br><br> Jack’s love for nature began as a child, wandering the woodlands near his home, where he developed a deep respect for the delicate balance of the wild. This early connection inspired him to pick up a camera, driven by a desire to share the incredible encounters he witnessed. What started as a hobby quickly turned into a lifelong journey to explore and document wildlife through his lens. </p>
+							
+							
+							</div>
+							
+			<h2> Recent Projects </h2>
+			
+<!--JAVA SCRIPT SCROLL WHEEL-->
+
+<div class="scroll-wheel">
+  <div class="image-container">
+    <img src="images/foxes.png" class="foxes" alt="foxes on road">
+    <span class="overlay-text">Foxes on Road</span>
+  </div>
+  
+  <div class="image-container">
+    <img src="images/seal.png" class="seal" alt="two seals">
+    <span class="overlay-text">Two Seals</span>
+  </div>
+  
+  <div class="image-container">
+    <img src="images/two-puffins.png" class="puffins" alt="puffins jumping off cliff">
+    <span class="overlay-text">Puffins Jumping</span>
+  </div>
+</div>
+
+		
+<!--SECOND QUOTE-->
+		<div class="full-quote">
+						<blockquote class="quote"> "Through the lens, I seek to reveal the untold stories of the wild—where every moment is fleeting, but forever captured in a single frame."
+						
+						<cite class="quote-attribution"> – Jack Wilderman</cite>
+						</blockquote>
+		</div>
+		</main>
+		
+<!--FOOTER-->
+		<footer>
+		<div class="container-2">
+			<div id="logo-2">
+				<img src="Images/jw.svg" alt="JW logo">
+			</div>
+				<ul class="social-links">
+					<li><a href="https://facebook.com/jackwilderman"><i class="fa fa-facebook"></i></a></li>
+					<li><a href="https://instagram.com/jackwilderman"><i class="fa fa-instagram"></i></a></li>
+					<li><a href="https://twitter.com/jackwilderman"><i class="fa-brands fa-x-twitter"></i></a></li>
+				</ul>
+			</div>
+		</footer>
+<!--FOOTER END -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script type="text/javascript" src="slick/slick.min.js"></script>
+	
+	  <script type="text/javascript">
+	$(document).ready(function(){
+  $(".scroll-wheel").slick({
+    dots: true,
+  infinite: true,
+  speed: 300,
+  slidesToShow: 1,
+  centerMode: true,
+  variableWidth: true
+  });
+});
+	</script>
+<script>
+  function toggleMenu() {
+    const topnav = document.getElementById("myTopnav");
+    if (topnav.className === "topnav") {
+      topnav.className += " responsive";
+    } else {
+      topnav.className = "topnav";
+    }
+  }
+  </script>
+	</body>
+</html>
